@@ -1,0 +1,34 @@
+.infoContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.infoList {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.poster {
+    width: 350px;
+    padding-right: 20px;
+    margin-left: 15px;
+}
+
+.link {
+    display: flex;
+
+    align-items: center;
+    padding: 5px 10px;
+    font-size: 18px;
+    border-radius: 7px;
+    text-decoration: none;
+    color: #151515;
+    border: none;
+    background-color: #d1d1d1;
+}
+
+.link:hover,
+.link:focus {
+    color: #ebebeb;
+    background-color: #da7ad0;
+}
